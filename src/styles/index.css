@@ -9,3 +9,28 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.container {
+    margin-top: 10px;
+   background: rgb(229, 226, 226);
+    width: 400px;
+    margin: auto;
+    border: thick double rgb(229, 226, 226);
+}
+ul{
+    padding: 0;
+    margin-bottom: 0;
+} 
+ul li {
+border:1px solid gray;
+list-style: none;
+padding: 5px;
+}
+h1{text-align: center;}
+
+input{border: none; width: 100%;}
+
+span {
+ position: relative;
+ float: right;
+ color: red;
+}
